@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "寻 - 极简查词",
-    "slug": "XunDict",
+    "slug": "xundict",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
