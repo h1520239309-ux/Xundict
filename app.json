@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "寻",
+    "slug": "xundict",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF8FA"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "fonts": [
+      {
+        "asset": "./assets/fonts/Cause-Regular.ttf",
+        "family": "Cause-Regular"
+      },
+      {
+        "asset": "./assets/fonts/Cause-Medium.ttf",
+        "family": "Cause-Medium"
+      },
+      {
+        "asset": "./assets/fonts/Cause-Bold.ttf",
+        "family": "Cause-Bold"
+      },
+      {
+        "asset": "./assets/fonts/Cause-Light.ttf",
+        "family": "Cause-Light"
+      },
+      {
+        "asset": "./assets/fonts/Cause-SemiBold.ttf",
+        "family": "Cause-SemiBold"
+      },
+      {
+        "asset": "./assets/fonts/LeMiNaiPao.ttf",
+        "family": "LemiXiaoNaiPaoTi"
+      }
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.xun.dict"
+    },
+    "android": {
+      "package": "com.xun.dict",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFF8FA"
+      },
+      "versionCode": 1
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "34584a63-1175-41ac-8f10-c064b489157b"
+      }
+    }
+  }
+}
